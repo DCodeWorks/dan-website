@@ -1,0 +1,12 @@
+{
+  "name": "dan-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs --preview"
+  },
+  "dependencies": {
+    "marked": "^15.0.12"
+  }
+}

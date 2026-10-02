@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="280" viewBox="0 0 640 280" role="img" aria-label="Import flow">
+  <rect width="640" height="280" fill="#fafafa"/>
+  <g fill="none" stroke="#1a1a1a" stroke-width="1.5" font-family="system-ui, sans-serif" font-size="14">
+    <rect x="24" y="36" width="150" height="48" fill="#fff"/>
+    <text x="99" y="65" text-anchor="middle" stroke="none" fill="#1a1a1a">Import file</text>
+    <rect x="230" y="36" width="170" height="48" fill="#fff"/>
+    <text x="315" y="65" text-anchor="middle" stroke="none" fill="#1a1a1a">Create rows</text>
+    <rect x="456" y="36" width="160" height="48" fill="#fff"/>
+    <text x="536" y="65" text-anchor="middle" stroke="none" fill="#1a1a1a">Rows saved</text>
+    <path d="M174 60 H230" marker-end="url(#arrow)"/>
+    <path d="M400 60 H456" marker-end="url(#arrow)"/>
+    <rect x="230" y="168" width="170" height="48" fill="#fff"/>
+    <text x="315" y="197" text-anchor="middle" stroke="none" fill="#1a1a1a">Async plugin</text>
+    <path d="M315 84 V168" marker-end="url(#arrow)"/>
+    <text x="328" y="132" stroke="none" fill="#444" font-size="13">after commit</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+</svg>
